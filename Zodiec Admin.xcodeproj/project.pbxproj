@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		831AC31F2B606BE200D2DFB2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831AC31E2B606BE200D2DFB2 /* HomeView.swift */; };
+		83372F6D2B63FA740013915B /* AddBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83372F6C2B63FA740013915B /* AddBannerView.swift */; };
+		83372F6F2B63FAA30013915B /* OrdersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83372F6E2B63FAA30013915B /* OrdersView.swift */; };
+		83372F712B63FAB40013915B /* ProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83372F702B63FAB40013915B /* ProductsView.swift */; };
+		83372F732B63FAC80013915B /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83372F722B63FAC80013915B /* CategoriesView.swift */; };
+		83372F752B63FAE20013915B /* AddCouponView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83372F742B63FAE20013915B /* AddCouponView.swift */; };
+		83372F772B63FB440013915B /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83372F762B63FB440013915B /* UsersView.swift */; };
+		833812A12B3F150C00F66AB1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 833812A02B3F150C00F66AB1 /* GoogleService-Info.plist */; };
+		833812AF2B3F186D00F66AB1 /* FirebaseCollectionsReferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833812AE2B3F186D00F66AB1 /* FirebaseCollectionsReferences.swift */; };
+		833812B22B3F18C800F66AB1 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833812B12B3F18C800F66AB1 /* ApiManager.swift */; };
+		833812B42B3F193500F66AB1 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833812B32B3F193500F66AB1 /* ProductModel.swift */; };
+		833812B72B3F23E700F66AB1 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833812B62B3F23E700F66AB1 /* AppConstants.swift */; };
+		8339AD372B76A537009540BD /* CouponModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8339AD362B76A537009540BD /* CouponModel.swift */; };
+		8342910C2B8904B8003FD843 /* BannerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8342910B2B8904B8003FD843 /* BannerModel.swift */; };
+		835C2B752B93AA9800F76AD8 /* OrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835C2B742B93AA9800F76AD8 /* OrderModel.swift */; };
+		835C2B782B93BE8100F76AD8 /* OrdersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835C2B772B93BE8100F76AD8 /* OrdersViewModel.swift */; };
+		835CE9072B3CCBB900FD50E3 /* Zodiec_AdminApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835CE9062B3CCBB900FD50E3 /* Zodiec_AdminApp.swift */; };
+		835CE9092B3CCBB900FD50E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835CE9082B3CCBB900FD50E3 /* ContentView.swift */; };
+		835CE90B2B3CCBBC00FD50E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 835CE90A2B3CCBBC00FD50E3 /* Assets.xcassets */; };
+		835CE90E2B3CCBBC00FD50E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 835CE90D2B3CCBBC00FD50E3 /* Preview Assets.xcassets */; };
+		835CE9102B3CCBBC00FD50E3 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835CE90F2B3CCBBC00FD50E3 /* Persistence.swift */; };
+		835CE9132B3CCBBC00FD50E3 /* Zodiec_Admin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 835CE9112B3CCBBC00FD50E3 /* Zodiec_Admin.xcdatamodeld */; };
+		835CE91B2B3CCCC400FD50E3 /* AddProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835CE91A2B3CCCC400FD50E3 /* AddProductView.swift */; };
+		835CE91D2B3CCCD200FD50E3 /* AddCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835CE91C2B3CCCD200FD50E3 /* AddCategoryView.swift */; };
+		835CE9212B3CD68600FD50E3 /* RectangleTextFieldShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835CE9202B3CD68600FD50E3 /* RectangleTextFieldShape.swift */; };
+		835CE9252B3CE65700FD50E3 /* AppStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835CE9242B3CE65700FD50E3 /* AppStrings.swift */; };
+		835CE9282B3CE6E800FD50E3 /* AppSizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835CE9272B3CE6E800FD50E3 /* AppSizes.swift */; };
+		836264912B60357B006AEB72 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836264902B60357B006AEB72 /* Test.swift */; };
+		836264932B6061D0006AEB72 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836264922B6061D0006AEB72 /* CategoryModel.swift */; };
+		83A2473D2B54328D00522E1B /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A2473C2B54328D00522E1B /* AlertView.swift */; };
+		83B5FCA42B5596CD008E3B40 /* CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B5FCA32B5596CD008E3B40 /* CustomModifiers.swift */; };
+		83F41A6D2B4216040051D634 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F41A6C2B4216040051D634 /* ImagePicker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		831AC31E2B606BE200D2DFB2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		83372F6C2B63FA740013915B /* AddBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBannerView.swift; sourceTree = "<group>"; };
+		83372F6E2B63FAA30013915B /* OrdersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersView.swift; sourceTree = "<group>"; };
+		83372F702B63FAB40013915B /* ProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsView.swift; sourceTree = "<group>"; };
+		83372F722B63FAC80013915B /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
+		83372F742B63FAE20013915B /* AddCouponView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCouponView.swift; sourceTree = "<group>"; };
+		83372F762B63FB440013915B /* UsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersView.swift; sourceTree = "<group>"; };
+		833812A02B3F150C00F66AB1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		833812AE2B3F186D00F66AB1 /* FirebaseCollectionsReferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseCollectionsReferences.swift; sourceTree = "<group>"; };
+		833812B12B3F18C800F66AB1 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		833812B32B3F193500F66AB1 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		833812B62B3F23E700F66AB1 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		8339AD362B76A537009540BD /* CouponModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponModel.swift; sourceTree = "<group>"; };
+		8342910B2B8904B8003FD843 /* BannerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerModel.swift; sourceTree = "<group>"; };
+		835C2B742B93AA9800F76AD8 /* OrderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderModel.swift; sourceTree = "<group>"; };
+		835C2B772B93BE8100F76AD8 /* OrdersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersViewModel.swift; sourceTree = "<group>"; };
+		835CE9032B3CCBB900FD50E3 /* Zodiec Admin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zodiec Admin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		835CE9062B3CCBB900FD50E3 /* Zodiec_AdminApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zodiec_AdminApp.swift; sourceTree = "<group>"; };
+		835CE9082B3CCBB900FD50E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		835CE90A2B3CCBBC00FD50E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		835CE90D2B3CCBBC00FD50E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		835CE90F2B3CCBBC00FD50E3 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		835CE9122B3CCBBC00FD50E3 /* Zodiec_Admin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Zodiec_Admin.xcdatamodel; sourceTree = "<group>"; };
+		835CE91A2B3CCCC400FD50E3 /* AddProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductView.swift; sourceTree = "<group>"; };
+		835CE91C2B3CCCD200FD50E3 /* AddCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCategoryView.swift; sourceTree = "<group>"; };
+		835CE9202B3CD68600FD50E3 /* RectangleTextFieldShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleTextFieldShape.swift; sourceTree = "<group>"; };
+		835CE9242B3CE65700FD50E3 /* AppStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStrings.swift; sourceTree = "<group>"; };
+		835CE9272B3CE6E800FD50E3 /* AppSizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSizes.swift; sourceTree = "<group>"; };
+		836264902B60357B006AEB72 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		836264922B6061D0006AEB72 /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		83A2473C2B54328D00522E1B /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		83B5FCA32B5596CD008E3B40 /* CustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
+		83F41A6C2B4216040051D634 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		835CE9002B3CCBB900FD50E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		833812B02B3F18B900F66AB1 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				833812B12B3F18C800F66AB1 /* ApiManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		833812B52B3F193900F66AB1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				833812B32B3F193500F66AB1 /* ProductModel.swift */,
+				836264922B6061D0006AEB72 /* CategoryModel.swift */,
+				8342910B2B8904B8003FD843 /* BannerModel.swift */,
+				8339AD362B76A537009540BD /* CouponModel.swift */,
+				835C2B742B93AA9800F76AD8 /* OrderModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		835C2B762B93BE6300F76AD8 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				835C2B772B93BE8100F76AD8 /* OrdersViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		835CE8FA2B3CCBB900FD50E3 = {
+			isa = PBXGroup;
+			children = (
+				835CE9052B3CCBB900FD50E3 /* Zodiec Admin */,
+				835CE9042B3CCBB900FD50E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		835CE9042B3CCBB900FD50E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				835CE9032B3CCBB900FD50E3 /* Zodiec Admin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		835CE9052B3CCBB900FD50E3 /* Zodiec Admin */ = {
+			isa = PBXGroup;
+			children = (
+				83F41A6E2B42164F0051D634 /* Utlities */,
+				833812B52B3F193900F66AB1 /* Models */,
+				835C2B762B93BE6300F76AD8 /* View Models */,
+				833812B02B3F18B900F66AB1 /* Network */,
+				835CE9232B3CE64900FD50E3 /* Resources */,
+				835CE9222B3CD68B00FD50E3 /* Custom Views */,
+				835CE9192B3CCBF800FD50E3 /* Views */,
+				835CE9062B3CCBB900FD50E3 /* Zodiec_AdminApp.swift */,
+				835CE90A2B3CCBBC00FD50E3 /* Assets.xcassets */,
+				833812A02B3F150C00F66AB1 /* GoogleService-Info.plist */,
+				835CE90F2B3CCBBC00FD50E3 /* Persistence.swift */,
+				835CE9112B3CCBBC00FD50E3 /* Zodiec_Admin.xcdatamodeld */,
+				835CE90C2B3CCBBC00FD50E3 /* Preview Content */,
+			);
+			path = "Zodiec Admin";
+			sourceTree = "<group>";
+		};
+		835CE90C2B3CCBBC00FD50E3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				835CE90D2B3CCBBC00FD50E3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		835CE9192B3CCBF800FD50E3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				835CE9082B3CCBB900FD50E3 /* ContentView.swift */,
+				835CE91A2B3CCCC400FD50E3 /* AddProductView.swift */,
+				835CE91C2B3CCCD200FD50E3 /* AddCategoryView.swift */,
+				83372F742B63FAE20013915B /* AddCouponView.swift */,
+				83372F6C2B63FA740013915B /* AddBannerView.swift */,
+				831AC31E2B606BE200D2DFB2 /* HomeView.swift */,
+				83372F6E2B63FAA30013915B /* OrdersView.swift */,
+				83372F702B63FAB40013915B /* ProductsView.swift */,
+				83372F722B63FAC80013915B /* CategoriesView.swift */,
+				83372F762B63FB440013915B /* UsersView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		835CE9222B3CD68B00FD50E3 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				835CE9202B3CD68600FD50E3 /* RectangleTextFieldShape.swift */,
+				83A2473C2B54328D00522E1B /* AlertView.swift */,
+				836264902B60357B006AEB72 /* Test.swift */,
+			);
+			name = "Custom Views";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		835CE9232B3CE64900FD50E3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				835CE9242B3CE65700FD50E3 /* AppStrings.swift */,
+				835CE9272B3CE6E800FD50E3 /* AppSizes.swift */,
+				833812AE2B3F186D00F66AB1 /* FirebaseCollectionsReferences.swift */,
+				833812B62B3F23E700F66AB1 /* AppConstants.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		83F41A6E2B42164F0051D634 /* Utlities */ = {
+			isa = PBXGroup;
+			children = (
+				83F41A6C2B4216040051D634 /* ImagePicker.swift */,
+				83B5FCA32B5596CD008E3B40 /* CustomModifiers.swift */,
+			);
+			path = Utlities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		835CE9022B3CCBB900FD50E3 /* Zodiec Admin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 835CE9162B3CCBBC00FD50E3 /* Build configuration list for PBXNativeTarget "Zodiec Admin" */;
+			buildPhases = (
+				835CE8FF2B3CCBB900FD50E3 /* Sources */,
+				835CE9002B3CCBB900FD50E3 /* Frameworks */,
+				835CE9012B3CCBB900FD50E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Zodiec Admin";
+			packageProductDependencies = (
+			);
+			productName = "Zodiec Admin";
+			productReference = 835CE9032B3CCBB900FD50E3 /* Zodiec Admin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		835CE8FB2B3CCBB900FD50E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					835CE9022B3CCBB900FD50E3 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 835CE8FE2B3CCBB900FD50E3 /* Build configuration list for PBXProject "Zodiec Admin" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 835CE8FA2B3CCBB900FD50E3;
+			packageReferences = (
+				83D0CA2F2B94EA55004892F5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 835CE9042B3CCBB900FD50E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				835CE9022B3CCBB900FD50E3 /* Zodiec Admin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		835CE9012B3CCBB900FD50E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				835CE90E2B3CCBBC00FD50E3 /* Preview Assets.xcassets in Resources */,
+				833812A12B3F150C00F66AB1 /* GoogleService-Info.plist in Resources */,
+				835CE90B2B3CCBBC00FD50E3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		835CE8FF2B3CCBB900FD50E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				833812AF2B3F186D00F66AB1 /* FirebaseCollectionsReferences.swift in Sources */,
+				835CE9212B3CD68600FD50E3 /* RectangleTextFieldShape.swift in Sources */,
+				83A2473D2B54328D00522E1B /* AlertView.swift in Sources */,
+				8342910C2B8904B8003FD843 /* BannerModel.swift in Sources */,
+				835CE91D2B3CCCD200FD50E3 /* AddCategoryView.swift in Sources */,
+				836264912B60357B006AEB72 /* Test.swift in Sources */,
+				835CE9102B3CCBBC00FD50E3 /* Persistence.swift in Sources */,
+				83372F712B63FAB40013915B /* ProductsView.swift in Sources */,
+				835CE9092B3CCBB900FD50E3 /* ContentView.swift in Sources */,
+				83372F732B63FAC80013915B /* CategoriesView.swift in Sources */,
+				836264932B6061D0006AEB72 /* CategoryModel.swift in Sources */,
+				83372F6D2B63FA740013915B /* AddBannerView.swift in Sources */,
+				83B5FCA42B5596CD008E3B40 /* CustomModifiers.swift in Sources */,
+				835CE9072B3CCBB900FD50E3 /* Zodiec_AdminApp.swift in Sources */,
+				833812B22B3F18C800F66AB1 /* ApiManager.swift in Sources */,
+				83372F752B63FAE20013915B /* AddCouponView.swift in Sources */,
+				83372F772B63FB440013915B /* UsersView.swift in Sources */,
+				833812B42B3F193500F66AB1 /* ProductModel.swift in Sources */,
+				835CE9132B3CCBBC00FD50E3 /* Zodiec_Admin.xcdatamodeld in Sources */,
+				83372F6F2B63FAA30013915B /* OrdersView.swift in Sources */,
+				835C2B782B93BE8100F76AD8 /* OrdersViewModel.swift in Sources */,
+				8339AD372B76A537009540BD /* CouponModel.swift in Sources */,
+				835CE9252B3CE65700FD50E3 /* AppStrings.swift in Sources */,
+				833812B72B3F23E700F66AB1 /* AppConstants.swift in Sources */,
+				83F41A6D2B4216040051D634 /* ImagePicker.swift in Sources */,
+				835C2B752B93AA9800F76AD8 /* OrderModel.swift in Sources */,
+				835CE91B2B3CCCC400FD50E3 /* AddProductView.swift in Sources */,
+				835CE9282B3CE6E800FD50E3 /* AppSizes.swift in Sources */,
+				831AC31F2B606BE200D2DFB2 /* HomeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		835CE9142B3CCBBC00FD50E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		835CE9152B3CCBBC00FD50E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		835CE9172B3CCBBC00FD50E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Zodiec Admin/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ellashy.Zodiec-Admin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		835CE9182B3CCBBC00FD50E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Zodiec Admin/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ellashy.Zodiec-Admin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		835CE8FE2B3CCBB900FD50E3 /* Build configuration list for PBXProject "Zodiec Admin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				835CE9142B3CCBBC00FD50E3 /* Debug */,
+				835CE9152B3CCBBC00FD50E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		835CE9162B3CCBBC00FD50E3 /* Build configuration list for PBXNativeTarget "Zodiec Admin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				835CE9172B3CCBBC00FD50E3 /* Debug */,
+				835CE9182B3CCBBC00FD50E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		83D0CA2F2B94EA55004892F5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCVersionGroup section */
+		835CE9112B3CCBBC00FD50E3 /* Zodiec_Admin.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				835CE9122B3CCBBC00FD50E3 /* Zodiec_Admin.xcdatamodel */,
+			);
+			currentVersion = 835CE9122B3CCBBC00FD50E3 /* Zodiec_Admin.xcdatamodel */;
+			path = Zodiec_Admin.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 835CE8FB2B3CCBB900FD50E3 /* Project object */;
+}
