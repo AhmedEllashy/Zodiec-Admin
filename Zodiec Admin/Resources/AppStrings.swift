@@ -18,6 +18,7 @@ struct AppStrings{
     static var success : String = "Success!"
     static var description : String = "Description"
     static var productAddedSuccessfully : String = "Product added Successfully!!"
+    static var getDataSuccessfully : String = "Got Data Successfully!!"
     static var products : String = "Products"
     static var categories : String = "Categories"
     static var code : String = "Code"

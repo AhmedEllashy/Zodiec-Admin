@@ -15,5 +15,5 @@ enum FirebaseCollectionReferences : String{
     case Users
     case Coupons
     case Banners
-    case Orders
+    case Order
 }

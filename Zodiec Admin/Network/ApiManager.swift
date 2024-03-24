@@ -59,9 +59,24 @@ class ApiManager {
             }
             completion(AppStrings.success , nil)
         }
-    //MARK: - Get Orders
-        func addCoupon(completion : @escaping(_ data : [OrderModel]? ,_ error : Any?)-> Void){
-            _db.collection(FirebaseCollectionReferences.Orders.rawValue).do
+    //MARK: - GET Orders
+        func getOrdersApi(completion : @escaping(_ data : [OrderModel]? ,_ error : CustomError?)-> Void){
+            var orders : [OrderModel] = []
+            _db.collection(FirebaseCollectionReferences.Order.rawValue).getDocuments(completion:  { querySnapShot, error in
+                if querySnapShot != nil {
+                    if !querySnapShot!.isEmpty{
+                        for order in querySnapShot!.documents {
+                            let finalOrder = OrderModel(_data: order.data() as NSDictionary)
+                            orders.append(finalOrder)
+                        }
+                    }else{
+                        completion(nil , CustomError(id: nil, message: "NoData"))
+                    }
+                }else{
+                    completion(nil , CustomError(id:nil,message:error?.localizedDescription))
+                }
+                completion(orders , nil)
+            })
         }
     //MARK: - ADD Coupon
         func addBanner(completion : @escaping(_ data : Any? ,_ error : Any?)-> Void , banner : BannerModel){
@@ -77,7 +92,6 @@ class ApiManager {
             completion(AppStrings.success , nil)
         }
     //MARK: - Upload Image
-
     func uploadImageToFireStorage(completion :@escaping(_ data : String? , _ error : Any?) -> Void ,imageCollectionName : String,image : UIImage)  {
         let storage = Storage.storage()
         let storageRef = storage.reference()

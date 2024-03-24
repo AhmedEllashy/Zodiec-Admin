@@ -47,7 +47,6 @@ struct AddBannerView: View {
                     //MARK: - Save Button
                     Button(AppStrings.save){
                         showAlert = true
-                        var bannerImageUrl = ""
                         guard !image.description.isEmpty else {
                             alertState = .error
                             responseMessage = "Error Please Add Image!"
@@ -57,24 +56,18 @@ struct AddBannerView: View {
                             if let error = error {
                                 alertState = .error
                                 responseMessage = error as! String
-                            }else{
-                                
-                                bannerImageUrl = imgData!
-                            }
+                            }else if let imgData = imgData{
+                                AppConstants.apiManager.addBanner(completion: { data, error in
+                                    if let error = error {
+                                        alertState = .error
+                                        responseMessage = error as! String
+                                    }else{
+                                        alertState = .success
+                                        responseMessage = AppStrings.success
+                                    }
+                                    
+                                }, banner: BannerModel(_id: nil, _imageUrl: imgData))                            }
                         }, imageCollectionName: AppStrings.banners, image: image)
-                        
-                        AppConstants.apiManager.addBanner(completion: { data, error in
-                            if let error = error {
-                                alertState = .error
-                                responseMessage = error as! String
-                            }else{
-                                alertState = .success
-                                responseMessage = AppStrings.success
-                            }
-                            
-                        }, banner: BannerModel(_id: nil, _imageUrl: bannerImageUrl))
-                        
-
                     }
                     .foregroundColor(.white)
                     .frame(width: bounds.width - AppSizes.s20, height: AppSizes.s50)

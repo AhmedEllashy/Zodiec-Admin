@@ -62,8 +62,8 @@ struct AddProductView: View {
                                 showProgressView = false
                                 responseMessage = error as! String
                                 showErrorView = true
-                            }else{
-                                saveProduct(product: ProductModel(id: nil, name: name, category: category, imageUrl: data, price: price, quantity: Int(quantity), description : description ,sizes: nil, rate: nil))
+                            }else if let imgUrl = data{
+                                saveProduct(product: ProductModel(id: nil, name: name, category: category, imageUrl: imgUrl, price: price, quantity: Int(quantity), description : description ,sizes: nil, rate: nil))
                                 showProgressView = false
                                 responseMessage = AppStrings.productAddedSuccessfully
                                 showSuccessView = true
